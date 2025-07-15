@@ -26,6 +26,7 @@ class WidgetTree extends StatelessWidget {
 
         ],
         child: MaterialApp(
+          debugShowCheckedModeBanner: false,
           theme: ThemeData(
             colorScheme: ColorScheme(
               brightness: Brightness.dark,

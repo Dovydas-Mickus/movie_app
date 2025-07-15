@@ -35,7 +35,6 @@ class SearchCubit extends Cubit<SearchState> {
       emit(state.copyWith(status: SearchStatus.initial, errorMessage: 'Search query is empty'));
       return;
     }
-    print('if passed!');
     try {
       final results = await repository.getSearchResults(state.searchQuery);
 

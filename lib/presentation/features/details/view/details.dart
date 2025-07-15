@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:movie_app/data/models/credit_person.dart';
 import 'package:movie_app/data/repositories/tmdb_repository.dart';
 import 'package:movie_app/presentation/features/details/cubit/details_cubit.dart';
 import 'package:movie_app/presentation/features/details/widgets/credits_list.dart';
